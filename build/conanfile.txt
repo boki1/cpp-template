@@ -1,0 +1,9 @@
+[requires]
+fmt/8.0.1
+gtest/1.12.1
+
+[options]
+gtest:build_gmock=False
+
+[generators]
+cmake
