@@ -31,5 +31,6 @@
 *.out
 *.app
 
-
-build/out
+Testing/
+cmake-build-debug/
+compile_commands.json

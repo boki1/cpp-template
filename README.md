@@ -6,9 +6,3 @@
 ---------------
 
 Template for moderately small modern C++ libraries using CMake and the Conan package manager.
-
-Organised under three directories primarily:
-- `build` contains everything related to building the library. More often than not some of these utilities are placed
-under the root of the repository, but I do think that for small projects this provides better organization.
-- `src/<library>` contains the source code of the library itself, and
-- `src/tests` is filled with unit-tests, benchmarks, sample usages, et c.
