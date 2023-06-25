@@ -14,7 +14,8 @@ Template for moderately small modern C++ libraries using CMake and the Conan pac
 $ ./build.sh
 ```
 
-**Producing documentation**
-```
-$ doxygen docs/Doxyfile && xdg-open docs/build/html/index.html
-```
+**Documentation** - [_Latest_](https://boki1.github.io/cpp-template/)
+
+The documentation is automatically deployed in the Pages of this repository. Note that you may
+have to manually change the settings of "Pages" to use the "gh-pages" branch. After that the produced
+output may be checked out at "https://<username>.github.io/<project>".
