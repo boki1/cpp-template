@@ -1,6 +1,3 @@
-add_library(cpp-template
-	src/foo.cpp)
-target_include_directories(cpp-template PUBLIC
-	include/)
-target_compile_options(cpp-template PUBLIC
-	-Wall -Wextra -Werror -std=c++20)
+add_library(cpp-template src/foo.cpp)
+target_include_directories(cpp-template PUBLIC include/)
+target_compile_options(cpp-template PUBLIC -Wall -Wextra -Werror -std=c++20)

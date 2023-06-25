@@ -1,4 +1,3 @@
-
 cmake_minimum_required(VERSION 3.22)
 project(cpp-template)
 
@@ -9,7 +8,7 @@ add_subdirectory(lib)
 
 option(CPP_TEMPLATE_BUILD_TESTS "Whether to build tests." "ON")
 if("${CPP_TEMPLATE_BUILD_TESTS}" STREQUAL "ON")
-	enable_testing()
-	include(cmake/conan.cmake)
-    add_subdirectory(tests)
+  enable_testing()
+  include(cmake/conan.cmake)
+  add_subdirectory(tests)
 endif()
