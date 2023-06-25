@@ -7,3 +7,14 @@
 ---------------
 
 Template for moderately small modern C++ libraries using CMake and the Conan package manager.
+
+**Building**
+
+```
+$ ./build.sh
+```
+
+**Producing documentation**
+```
+$ doxygen docs/Doxyfile && xdg-open docs/build/html/index.html
+```

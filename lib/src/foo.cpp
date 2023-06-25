@@ -3,7 +3,7 @@
 
 namespace cpp_template {
 
-int foo(std::string &out) {
+int bar::foo(std::string &out) {
   out = fmt::format("cpp_template::foo() was called and will return {}\n", 42);
   return 42;
 }

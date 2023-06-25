@@ -31,6 +31,13 @@
 *.out
 *.app
 
+# CMake
 Testing/
 cmake-build-debug/
 compile_commands.json
+
+# Conan
+.cache/
+
+# Doxygen
+docs/build/
