@@ -3,4 +3,4 @@ add_library(cpp-template
 target_include_directories(cpp-template PUBLIC
 	include/)
 target_compile_options(cpp-template PUBLIC
-	-Wall -Wextra -Werror -std=gnu++2b)
+	-Wall -Wextra -Werror -std=c++20)
