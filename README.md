@@ -27,3 +27,12 @@ Also make sure that python3 commands are ran inside a virtual environment.
 The documentation is automatically deployed in the Pages of this repository. Note that you may
 have to manually change the settings of "Pages" to use the "gh-pages" branch. After that the produced
 output may be checked out at "https://<username>.github.io/<project>".
+
+**Customization**
+
+For quick change of all mentions of "cpp-template" you may use the following commands:
+```
+$ grep -rl cpp-template . | xargs sed -i 's/cpp-template/new-project/g'
+$ grep -rl cpp_template . | xargs sed -i 's/cpp_template/new_project/g'
+$ grep -rl CPP_TEMPLATE . | xargs sed -i 's/CPP_TEMPLATE/NEW_PROJECT/g'
+```
