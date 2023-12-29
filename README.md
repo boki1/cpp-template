@@ -14,6 +14,14 @@ Template for moderately small modern C++ libraries using CMake and the Conan pac
 $ ./build.sh
 ```
 
+_NB_
+
+Currently the template requires that the version of `conan` is **not** `conan2`, so you may have to run something along the lines of
+```
+$ pip install --force-reinstall -v "conan==1.47.0"
+```
+Also make sure that python3 commands are ran inside a virtual environment.
+
 **Documentation** - [_Latest_](https://boki1.github.io/cpp-template/)
 
 The documentation is automatically deployed in the Pages of this repository. Note that you may
